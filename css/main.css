@@ -1,0 +1,998 @@
+body {
+    background-color:#F29AB0;
+    height: 640px;
+    width: 360px;   
+    box-sizing: 100%;
+}
+
+@font-face {
+    font-family: milko;
+    src: url('../font/Milko Denilo.ttf');
+}
+
+
+/* TELA DE INICIO */
+
+.inicio {
+    /*display: none;*/
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 620px;
+    width: 350px;
+    margin-left: 4%;
+    margin-top: 8%;
+  
+}
+
+.inicio img {
+    position: absolute;
+    top: 18%;
+    left: -12%;
+}
+
+.inicio h1{
+    -webkit-text-stroke: 0.1px #111111;
+    font-family: 'milko';
+    color: #25BBFC;
+    font-size: 80px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.inicio h2{
+    -webkit-text-stroke: 0.1px black;
+    font-family: 'milko';
+    color: #25BBFC;
+    margin-top: 25vh;
+    font-size: 80px;
+    margin-top: 1.3em;
+    margin-left: 1.8em;
+}
+
+
+.inicio p button {
+    font-family: 'Euphorigenic Regular';
+    font-size: 35px;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    border: 1px solid;
+    background-color: #A5DAF9;
+    border-radius: 0.3em;
+    height: 8vh;
+    width: 26vh;
+}
+
+/* TELA DE TUTORIAL */ 
+
+.tutorial {
+    display: none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 600px;
+    width: 355px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.tutorial h1{
+    -webkit-text-stroke: 0.1px #111111;
+    font-family: 'milko';
+    color: #25BBFC;
+    font-size: 70px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.tutorial p {
+    font-family: 'Euphorigenic Regular';
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 19%;
+}
+
+.tutorial p button {
+    font-family: 'Euphorigenic Regular';
+    font-size: 35px;
+    margin-top: 15%;
+    border: 1px solid;
+    background-color: #A5DAF9;
+    border-radius: 0.3em;
+    height: 8vh;
+    width: 26vh;
+}
+
+.tutorial img {
+    margin-top: 27%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+/* INFOS*/
+
+.infos {
+    display: none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 600px;
+    width: 355px;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.infos h1{
+    -webkit-text-stroke: 0.1px #111111;
+    font-family: 'milko';
+    color: #25BBFC;
+    font-size: 70px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 25%;
+}
+
+.infos h2{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1.4em;
+   
+}
+
+.infos p input{
+    width: 40vh;
+    border-radius: 0.5em;
+    background-color: #E5E5E5;
+    border: NONE;
+    text-align: center;
+    color: #848484;
+    padding-bottom: 2em;
+    
+}
+
+.botaoJogar {
+    font-family: 'Euphorigenic Regular';
+    font-size: 35px;
+    margin-top: 28%;
+    border: 1px solid;
+    background-color: #A5DAF9;
+    border-radius: 0.3em;
+    height: 8vh;
+    width: 26vh;
+}
+
+.infos img {
+    width: 10%;
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 12%;
+}
+
+/* PERGUNTA 1 */
+
+.imgtempo {
+    position: absolute;
+    left: 1.3em;
+    top: 1em;
+}
+
+.imgacertos {
+    position: relative;
+    margin-left: 15.4em;
+    margin-top: 0.3em;
+}
+
+section.topo {
+    font-family: 'Euphorigenic Regular';
+    display: none;
+}
+
+section.topo h2 {
+    font-size: 2em;
+    position: absolute;
+    top: -0.5em;
+    left: 1.7em;
+}
+
+section.topo h5 {
+    font-size: 2em;
+    position: absolute;
+    top: -1.3em;
+    left: 1.8em;
+}
+
+section.topo h4 {
+    font-size: 2em;
+    position: absolute;
+    top: -1em;
+    left: 9.4em;
+}
+
+
+.pergunta1 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta1 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta1 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta1 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 2 */
+
+
+.pergunta2 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta2 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta2 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta2 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 3 */
+
+
+.pergunta3 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta3 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta3 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta3 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 15%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 4 */
+
+
+.pergunta4 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta4 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta4 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta4 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+
+/* PERGUNTA 5 */
+
+
+.pergunta5 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta5 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta5 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta5 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 6 */
+
+
+.pergunta6 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta6 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta6 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta6 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 7 */
+
+
+.pergunta7 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta7 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta7 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta7 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 8 */
+
+
+.pergunta8 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta8 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta8 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta8 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 15%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 9 */
+
+
+.pergunta9 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta9 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta9 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta9 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 15%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* PERGUNTA 10 */
+
+
+.pergunta10 {
+    display:none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 570px;
+    width: 350px;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+
+.pergunta10 h1{
+    font-family: 'milko';
+    font-size: 5em;
+    color: #F29AB0;
+    margin-top: 0.8em;
+}
+
+.pergunta10 p{
+    font-family: 'Euphorigenic Regular';
+    font-size: 1em;
+    margin-top: -2.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+.pergunta10 button{
+    font-family: 'Euphorigenic Regular';
+    font-style: bold;
+    font-size: 1.5em;
+    background-color:#F29AB0;
+    border: 1px solid;
+    border-radius: 0.5em;
+    height: 6vh;
+    width: 18vh;
+    margin-top: 2em;
+    margin-bottom: 17%;
+}
+
+.dica {
+    position: absolute;
+}
+
+.cb1{
+    position: absolute;
+    left: -12.5em;
+    top: 3em;
+}
+
+.cb2{
+    position: absolute;
+    left: 18em;
+    top: 18em;
+}
+
+
+.rodape img {
+    width: 8%;
+    margin-top: 12%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+/* TRANSIÇÃO */
+
+.transicao{
+    display: none;
+}
+
+.fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 420px;
+    height: 680px;
+}
+
+.cerebro{
+    position: absolute;
+    left: 12em;
+    top: 18em;
+}
+
+.fundo2 {
+    position: absolute;
+    top: 0;
+    left: 370px;
+    width: 400px;
+    height: 700px;
+}
+
+/* DICA */
+
+.dica {
+    display: none;
+    font-family: 'Euphorigenic Regular';
+    background-color:#F29AB0 ;
+    position: absolute;
+    top: -3em;
+    left: 0;
+    padding-bottom: 2em;
+}
+
+.dica p {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+}
+
+/* FINAL */
+
+.final {
+    display: none;
+    text-align: center;
+    background-color: white;
+    border-style: dashed;
+    height: 610px;
+    width: 350px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+
+.final h1{
+    -webkit-text-stroke: 0.1px #111111;
+    font-family: 'milko';
+    color: #25BBFC;
+    font-size: 70px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.final h2{
+    font-family: 'Euphorigenic Regular';
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 4%    ;
+}
+
+.final p {
+    font-family: 'Euphorigenic Regular';
+    font-size: 18px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+
+.acertosFinal {
+    background-color: #25BBFC;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 1em;
+}
+
+.erros {
+    background-color: #25BBFC;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 1em;
+}
+
+.tempoFinal {
+    background-color: #25BBFC;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-radius: 1em;
+}
+
+
+.final img {
+    margin-top: 30%;
+    margin-left: 12%;
+    margin-right: 12%;
+}

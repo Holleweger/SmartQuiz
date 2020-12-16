@@ -1,0 +1,562 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body> 
+    <section class="inicio">
+        <h1> SMART </h1>
+        <img src="img/cérebro.png">
+        <h2> QUIZ </h2>
+        <p><button class="botaoTutorial" id="tutorial"> Tutorial </button></p>
+        <p><button class="botaoIniciar" id="iniciar"> Iniciar </button></p>
+    </section>
+
+    <section class="tutorial">
+        <h1> SMART QUIZ </h1>
+          <p> Esse é um quiz completamente normal </p>
+      
+        <br>
+        <p> Acerte e ganhe pontos, erre e perca, bem simples né.</p>
+
+        <p><button class="botaoIniciar" id="iniciar"> Iniciar </button></p>
+
+        
+        <img src="img/home.png" class="home">
+        <img src="img/volume.png" class="volume"> 
+    </section>
+
+    <section class="infos">
+      <h1> SMART QUIZ </h1>
+      <h2> Insira seu nome: </h2>
+      <p><input type="text" class="nome" id="nome" value="Primeiro Nome ou Apelido"></p>
+      <h2> Insira sua idade: </h2>
+      <p><input type="text" class="idade" id="idade" value="0"></p>
+
+      <p><button onclick="pegar()" type="submit" class="botaoJogar" id="jogar"> Jogar </button></p>
+
+      
+      <img src="img/home.png" class="home">
+      <img src="img/volume.png" class="volume"> 
+    </section>
+
+    <section class="topo">
+    <img class="imgtempo" src="img/tempo.png">
+    <h5 ><span class="time" >-3</span>s</h5>
+    <img class="imgacertos" src="img/acertos.png">
+    <h4 class="pontos"><span>0</span></h4>
+    </section>
+  
+    <section class="pergunta1">
+      
+        <div class="corpo">
+        <h1> Fase 1</h1>   
+        <p> O pai do padre é filho do meu pai. O que sou do padre? </p>
+          
+          <button class="correta" id="correta1"> Tio </button>
+          <button class="errada" > Irmão </button>
+          <br>
+          <button class="errada"> Filho </button>
+          <button class="errada"> Crush </button>
+          <br>
+
+          
+
+          <img src="img/canto1.png" class="cb1">
+          <img src="img/canto2.png" class="cb2">
+         
+
+        </div>
+
+        <div class="rodape">
+          <img src="img/dica.png" id="dica1" class="config">
+          <img src="img/home.png" class="home">
+          <img src="img/volume.png" class="volume"> 
+        </div>
+    </section>
+
+    <section class="pergunta2">
+      <div class="corpo">
+      <h1> Fase 2</h1>   
+      <p> Em qual local da Ásia o português é lingua oficial ? </p>
+        
+        <button class="errada" id="1"> Filipinas </button>
+        <button class="errada" id="2"> Moçambique </button>
+        <br>
+        <button class="errada" id="3"> Portugal </button>
+        <button class="correta" id="correta2"> Macau </button>
+        <br>
+
+
+        <img src="img/canto1.png" class="cb1">
+        <img src="img/canto2.png" class="cb2">
+        <img src="img/dica.png" class="dica">
+
+      </div>
+
+      <div class="rodape">
+        <img src="img/dica.png" id="dica2" class="config">
+        <img src="img/home.png" class="home">
+        <img src="img/volume.png" class="volume"> 
+      </div>
+  </section>
+
+  <section class="pergunta3">
+    <div class="corpo">
+    <h1> Fase 3</h1>   
+    <p> Quantos animais de cada espécie Moisés colocou em sua acrca ? </p>
+      
+      <button class="errada" id="1"> 1 </button>
+      <button class="correta" id="correta3"> 0 </button>
+      <br>
+      <button class="errada" id="3"> 2 </button>
+      <button class="errada" id="c"> 3 </button>
+      <br>
+
+
+      <img src="img/canto1.png" class="cb1">
+      <img src="img/canto2.png" class="cb2">
+      <img src="img/dica.png" class="dica">
+
+    </div>
+
+    <div class="rodape">
+      <img src="img/dica.png" id="dica3" class="config">
+      <img src="img/home.png" class="home">
+      <img src="img/volume.png" class="volume"> 
+    </div>
+</section>
+
+<section class="pergunta4">
+  <div class="corpo">
+  <h1> Fase 4</h1>   
+  <p> ⬆ ⬆ ⬇ ⬇ ⬅ ➡ ⬅ ➡ B A Start </p>
+    
+    <button class="correta" id="correta4"> Konami </button>
+    <button class="errada" id="2"> Sony </button>
+    <br>
+    <button class="errada" id="3"> Microsoft </button>
+    <button class="errada" id="4"> Atari </button>
+    <br>
+
+
+    <img src="img/canto1.png" class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" id="dica4" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+<section class="pergunta5">
+  <div class="corpo">
+  <h1> Fase 5</h1>   
+  <p> Qual o menor país do mundo ? </p>
+    
+    <button class="errada" id="1"> Tuvalu </button>
+    <button class="errada" id="2"> Nauru </button>
+    <br>
+    <button class="errada" id="3"> Mônaco </button>
+    <button class="correta" id="correta5"> Vaticano </button>
+    <br>
+
+
+    <img src="img/canto1.png" id="dica5" class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+<section class="pergunta6">
+  <div class="corpo">
+  <h1> Fase 6</h1>   
+  <p> Quem é a estrela da manhã? ? </p>
+    
+    <button class="errada" id="1"> Miguel </button>
+    <button class="errada" id="2"> Gabriel </button>
+    <br>
+    <button class="errada" id="3"> Rafael </button>
+    <button class="correta" id="correta6"> Lúcifer </button>
+    <br>
+
+
+    <img src="img/canto1.png"  class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" id="dica6" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+<section class="pergunta7">
+  <div class="corpo">
+  <h1> Fase 7</h1>   
+  <p> Inverso do contrário do oposto de sim </p>
+    
+    <button class="errada" id="1"> Sim </button>
+    <button class="errada" id="2"> Yes </button>
+    <br>
+    <button class="errada" id="3"> Nunca </button>
+    <button class="correta" id="correta7"> Não </button>
+    <br>
+
+
+    <img src="img/canto1.png" class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" id="dica7" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+<section class="pergunta8">
+  <div class="corpo">
+  <h1> Fase 8</h1>   
+  <p> Um pato bota o ovo na fronteira entre Brasil e Chile, de quem é o ovo ? </p>
+    
+    <button class="errada" id="1"> Brasil </button>
+    <button class="correta" id="correta8"> Ninguém </button>
+    <br>
+    <button class="errada" id="3"> Pato </button>
+    <button class="errada" id=""> Chile </button>
+    <br>
+
+
+    <img src="img/canto1.png" class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" id="dica8" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+<section class="pergunta9">
+  <div class="corpo">
+  <h1> Fase 9</h1>   
+  <p> No meu jardim existe 3 pés de alface, 1 de pepino e 5 de cenoura. Quantos pés eu tenho no total? </p>
+    
+    <button class="errada" id="1"> 1 </button>
+    <button class="errada" id="2"> 3 </button>
+    <br>
+    <button class="errada" id="3"> 9 </button>
+    <button class="correta" id="correta9"> 2 </button>
+    <br>
+
+
+    <img src="img/canto1.png" class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" id="dica9" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+<section class="pergunta10">
+  <div class="corpo">
+  <h1> Fase 10</h1>   
+  <p> Em qual alternativa há três oitos, três zero? </p>
+    
+    <button class="errada" id="1"> 383000 </button>
+    <button class="errada" id="2"> 3830 </button>
+    <br>
+    <button class="errada" id="3"> 888000 </button>
+    <button class="correta" id="correta10"> 88830 </button>
+    <br>
+
+
+    <img src="img/canto1.png" class="cb1">
+    <img src="img/canto2.png" class="cb2">
+    <img src="img/dica.png" class="dica">
+
+  </div>
+
+  <div class="rodape">
+    <img src="img/dica.png" id="dica10" class="config">
+    <img src="img/home.png" class="home">
+    <img src="img/volume.png" class="volume"> 
+  </div>
+</section>
+
+    <section class="transicao">
+      <img src="img/fundo2.png" class="fundo">
+      <img src="img/fundo3.png" class="fundo2">
+      <img src="img/cérebroooo.png" class="cerebro">
+    </section>
+
+    
+
+    <section class="final">
+      <h1> Parabens !</h1>
+      <h2> Você concluiu todas as fases do jogo.
+        Observe seu desempenho: </h2>
+      <br>
+
+      <p>
+      <h2>Pontuação</h2>
+      <span class="acertosFinal">00</span>
+      </p>
+
+      <p>
+        <h2>Tempo Decorrido</h2>
+        <span class="tempoFinal">00</span>
+      </p>
+
+      
+
+      <div class="rodape">
+        <img src="img/home.png" class="home">
+        <img src="img/volume.png" class="volume"> 
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      let som = 0;
+      let musicaJogo = new Audio("sounds/musica.mp3");
+      let certa = new Audio("sounds/acerto.mp3");
+      let errada = new Audio("sounds/erro.mp3");
+      let soma = 0;
+
+      
+
+    var tempoTran = 0;
+    var nome = "";
+    var idade = 0;
+    function pegar () {
+    nome = document.getElementById('nome').value;
+    idade = document.getElementById('idade').value;
+    }
+      
+
+    $(".botaoIniciar").on("click", function(){
+        $("section").hide();
+        $("section.infos").show();
+        musicaJogo.play();  
+        
+        
+    });
+
+    $(".volume").on("click", function(){
+        if(som == 0){
+          musicaJogo.pause();
+          som++;
+        } else if (som == 1) {
+          musicaJogo.play();
+          som--;
+        }
+          
+        
+        
+    });
+    
+    $("#iniciarTut").on("click", function(){
+        $("section.tutorial").hide();
+        $("section.infos").show();
+    });
+
+  
+    $("#tutorial").on("click", function(){
+        $("section.inicio").hide();
+        $("section.tutorial").show();
+    });
+
+    $(".home").on("click", function(){
+        $("section").hide();
+        $("section.inicio").show();
+    });
+
+    $(".botaoJogar").on("click", function(){
+      if(idade >= 00){
+        $("section").hide();
+        $("section.transicao").show();
+        $("section.pergunta1").show();
+        $("section.topo").show();
+        $(".cerebro").animate({ left: "-360px"},3500);
+        $(".fundo").animate({ left: "-360px"},2800);
+        $(".fundo2").animate({ left: "0px"},2800);
+
+        contagemDeTempo = setInterval(function(){
+        var conteudoTempo = parseInt($(".time").text());
+        var soma = conteudoTempo + 1; 
+        $(".time").text(soma);
+        console.log(soma);
+        },1000);
+        
+        contagemDeTempo = setInterval(function(){
+          tempoTran += 1;
+          if(tempoTran == 3){
+            $(".cerebro").hide();
+            $(".fundo").hide();
+            $(".fundo2").hide();
+          }
+        },1000);
+      } else {
+        alert("Idade não adequada!!!")
+        $("section").hide();
+        $("section.inicio").show();
+      }
+    
+    var acertos;
+    $(".correta").on("click", function(){
+      certa.play();
+      var contagemPontos = parseInt($(".pontos").text());
+      var soma = contagemPontos + 1;
+      $(".pontos").text(soma);
+    });
+
+    $(".errada").on("click", function(){
+      $("section").hide();
+      $("section.pergunta1").show();
+      $("section.topo").show();
+      var contagemPontos = parseInt($(".pontos").text());
+      var soma = contagemPontos - 2;
+      $(".pontos").text(soma);
+      errada.play();
+    });
+
+    $("#correta1").on("click", function(){
+      $("section.pergunta1").hide();
+      $("section.pergunta2").show();
+    });
+
+    $("#correta2").on("click", function(){
+      $("section.pergunta2").hide();
+      $("section.pergunta3").show();
+    });
+
+    $("#correta3").on("click", function(){
+      $("section.pergunta3").hide();
+      $("section.pergunta4").show();
+    });
+
+    $("#correta4").on("click", function(){
+      $("section.pergunta4").hide();
+      $("section.pergunta5").show();
+    });
+
+    $("#correta5").on("click", function(){
+      $("section.pergunta5").hide();
+      $("section.pergunta6").show();
+    });
+
+    $("#correta6").on("click", function(){
+      $("section.pergunta6").hide();
+      $("section.pergunta7").show();
+    });
+
+    $("#correta7").on("click", function(){
+      $("section.pergunta7").hide();
+      $("section.pergunta8").show();
+    });
+
+    $("#correta8").on("click", function(){
+      $("section.pergunta8").hide();
+      $("section.pergunta9").show();
+    });
+    
+    $("#correta9").on("click", function(){
+      $("section.pergunta9").hide();
+      $("section.pergunta10").show();
+    });
+
+    $("#correta10").on("click", function(){
+      $("section").hide();
+      $("section.final").show();
+      var conteudoTempo = parseInt($(".time").text());
+      var contagemPontos = parseInt($(".pontos").text());
+
+      $(".acertosFinal").text(contagemPontos);
+      $(".tempoFinal").text(conteudoTempo);
+     });
+
+     $("#dica1").on("click", function(){
+      alert("Sou irmão do pai do padre");
+    });
+    
+    $("#dica2").on("click", function(){
+      alert("Só um desses países é realmente da Ásia");
+    });
+
+    $("#dica3").on("click", function(){
+      alert("Moisés?");
+    });
+
+    $("#dica4").on("click", function(){
+      alert("Código usado pela empresa, já virou até mesmo um easteregg");
+    });
+
+    $("#dica5").on("click", function(){
+      alert("Sede do Catolicismo");
+    });
+
+    $("#dica6").on("click", function(){
+      alert("Possuí uma série da Netflix com seu nome");
+    });
+
+    $("#dica7").on("click", function(){
+      alert("Sim, não, sim, não,");
+    });
+
+    $("#dica8").on("click", function(){
+      alert("Pato? Fronteira?");
+    });
+
+    $("#dica9").on("click", function(){
+      alert("Quantas pernas possuí uma pessoa?");
+    });
+
+    $("#dica10").on("click", function(){
+      alert("Três oitos com 3 e 0");
+    });
+      
+
+    });
+
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html> 
